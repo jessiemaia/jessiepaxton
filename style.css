@@ -1,0 +1,46 @@
+#top {
+  background-image: url("rene-bohmer-481562-unsplash.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+
+#name {
+  font-family: Arial, Helvetica, sans-serif;
+  top: 5vh;
+  left: 5vh;
+  color: white;
+}
+
+#navbutton {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5vh;
+  margin-right: 5vh;
+  width: auto;
+  height: 5vh;
+}
+
+#middle {
+  background-color: black;
+  align-items: center;
+  padding-right: 30vh;
+  padding-left: 30vh;
+}
+
+#aboutme {
+  color: white;
+}
+
+#bottom {
+  background-color: black; 
+  padding-top: 10vh;
+  justify-content: center;
+}
+
+.card-body{
+  background-color: black;
+  color: white;
+}
+

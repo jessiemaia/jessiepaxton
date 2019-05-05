@@ -24,19 +24,15 @@
 
 #middle {
   background-color: black;
-  align-items: center;
-  padding-right: 30vh;
-  padding-left: 30vh;
-}
-
-#aboutme {
   color: white;
+  align-items: row-reverse;
 }
 
-#bottom {
+.centerStuff {
   background-color: black; 
   padding-top: 10vh;
   justify-content: center;
+  padding-bottom: 5px;
 }
 
 .card-body{

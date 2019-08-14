@@ -3,14 +3,25 @@
   height: 100vh;
   background-position: center;
   background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
 }
 
+#about {
+  padding-top: 20vh;
+}
 
 #name {
   font-family: Arial, Helvetica, sans-serif;
   top: 5vh;
   left: 5vh;
   color: whitesmoke;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.509);
+  
 }
 
 #navbutton {
@@ -21,22 +32,23 @@
   width: auto;
   height: 5vh;
 }
-
+/* 
 #middle {
   background-color: black;
   color: whitesmoke;
   align-items: row-reverse;
-}
+} */
 
 #bottom {
-  padding-bottom: 5vh;
+  /* padding-bottom: 2vh; */
   background-color: black;
+  height: 100vh;
 }
 .centerStuff {
   background-color: black; 
-  padding-top: 10vh;
+  /* padding-top: 10vh; */
   justify-content: center;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
 }
 
 .card-body{
@@ -54,13 +66,18 @@
   object-fit: cover;
 }
 
-
 html {
   overflow: hidden;
   height: 100%;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
 }
 
 body {
   height: 100%;
   overflow: auto;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
 }
